@@ -1,0 +1,44 @@
+/* Editorial annotations are distinct from, and subordinate to, book prose. */
+.lean-annotation {
+  margin: 1.6rem 0 2rem;
+  padding: 1rem 1.4rem;
+  border-inline-start: 3px solid #58789a;
+  background: color-mix(in srgb, #58789a 7%, transparent);
+  border-radius: 0 6px 6px 0;
+  font-size: .94em;
+}
+.lean-annotation .annotation-kicker {
+  margin: 0 0 .35rem;
+  font-size: .75em;
+  font-weight: 650;
+  letter-spacing: .1em;
+  color: #476583;
+}
+.lean-annotation h2 { margin: .2rem 0 .75rem; font-size: 1.12em; }
+.lean-annotation p { line-height: 1.6; }
+.lean-annotation p:last-child { margin-bottom: .25rem; }
+.lean-annotation pre { overflow-x: auto; max-width: 100%; padding: .75rem; }
+.lean-annotation code, .implementation-references code {
+  overflow-wrap: anywhere;
+  font-family: ui-monospace, "DejaVu Sans Mono", monospace;
+}
+.lean-statement { margin: .7rem 0; }
+.lean-statement summary, .implementation-references summary { cursor: pointer; line-height: 1.6; }
+.lean-statement[open] summary { margin-bottom: .75rem; }
+.lean-statement .namedocs { overflow-x: auto; max-width: 100%; }
+.lean-reference { margin: 1.5rem 0; }
+.implementation-references { font-size: .85em; color: var(--text-color, inherit); }
+.implementation-references li { margin: .45rem 0; }
+.reader-footnotes { border-top: 1px solid #8995a5; margin-top: 2rem; padding-top: 1rem; font-size: .88em; }
+.reader-footnotes h2 { font-size: 1.1em; }
+.reader-footnotes li { padding-inline-start: .3rem; margin-bottom: 1rem; }
+.footnote-reference { font-size: .7em; vertical-align: super; padding-inline: .15em; }
+.reader-footnotes :target, .footnote-reference a:target { background: #e7eff8; }
+@media (max-width: 600px) {
+  .lean-annotation { padding: .8rem .9rem; margin: 1.2rem 0; }
+  .lean-annotation .namedocs .signature { font-size: .85em; }
+}
+@media (prefers-color-scheme: dark) {
+  .lean-annotation .annotation-kicker { color: #a5bed8; }
+  .reader-footnotes :target { background: #25394e; }
+}
