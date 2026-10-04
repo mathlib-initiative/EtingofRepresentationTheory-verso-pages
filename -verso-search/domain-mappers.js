@@ -140,7 +140,7 @@ const Verso_DOT_Genre_DOT_Manual_DOT_example = {
 const Verso_DOT_Genre_DOT_Manual_DOT_section = {
     dataToSearchables:
       (domainData) =>
-          Object.entries(domainData.contents).map(([key, value]) => ({
+          Object.entries(domainData.contents).filter(([, value]) => !value[0].data.readerHidden).map(([key, value]) => ({
             searchKey: `${value[0].data.sectionNum ?? ''} ${value[0].data.title}`,
             address: `${value[0].address}#${value[0].id}`,
             domainId: 'Verso.Genre.Manual.section',

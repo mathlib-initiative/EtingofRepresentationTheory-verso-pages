@@ -1,0 +1,1 @@
+window.docContents[40].resolve({"/7___-Introduction-to-categories/7___6___-Adjoint-functors/#chapter-07___section-7-6":{"contents":"\n\n\n\n\n\n\n\n\n\n\n\n","context":"Introduction to Representation Theory\t7. Introduction to categories","header":"7.6. Adjoint functors","id":"/7___-Introduction-to-categories/7___6___-Adjoint-functors/#chapter-07___section-7-6"}});

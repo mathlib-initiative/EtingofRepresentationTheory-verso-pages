@@ -1,0 +1,1 @@
+window.docContents[106].resolve({"/9___-Structure-of-finite-dimensional-algebras/9___5___-Blocks/#chapter-09___section-9-5":{"contents":"\n\n\n\n\n\n\n\n","context":"Introduction to Representation Theory\t9. Structure of finite dimensional algebras","header":"9.5. Blocks","id":"/9___-Structure-of-finite-dimensional-algebras/9___5___-Blocks/#chapter-09___section-9-5"}});
